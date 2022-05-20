@@ -16,6 +16,9 @@
 # usethis::use_package("BSgenome.Athaliana.TAIR.TAIR9", min_version = "1.3.1000", type = "Suggests")
 # usethis::use_package("rtracklayer", type = "Suggests")
 # usethis::use_package("Biostrings", type = "Suggests")
+# usethis::use_package("GenomeInfoDb", type = "Suggests")
+# usethis::use_package("IRanges", type = "Suggests")
+# usethis::use_package("TxDb.Athaliana.BioMart.plantsmart28", type = "Suggests")
 
 # Tidyverse -----------------------------------
 # usethis::use_package("stringr", min_version = "1.4.0")

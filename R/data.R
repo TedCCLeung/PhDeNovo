@@ -2,12 +2,15 @@
 #'
 #' @format A data frame with 191271 rows and 7 variables:
 #' \describe{
-#'   \item{pair}{}
-#'   \item{PCC}{}
-#'   \item{PCC_normalized}{}
-#'   \item{KL}{}
-#'   \item{KL_normalized}{}
-#'   \item{gene1}{}
-#'   \item{gene2}{}
+#'   \item{PCC}{PCC}
+#'   \item{PCC_normalized}{PCC normalized}
+#'   \item{gene1}{gene 1}
+#'   \item{gene2}{gene 2}
 #' }
 "TFBS_similarity"
+
+
+#' CIS-BP motifs
+#'
+#' @format List
+"CISBP_motifset"

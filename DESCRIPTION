@@ -24,12 +24,16 @@ Suggests:
     BiocGenerics (>= 0.40.0),
     Biostrings,
     BSgenome.Athaliana.TAIR.TAIR9 (>= 1.3.1000),
+    GenomeInfoDb,
     GenomicFeatures (>= 1.46.1),
     GenomicRanges (>= 1.46.1),
+    IRanges,
     purrr,
     rtracklayer,
     tibble,
+    TxDb.Athaliana.BioMart.plantsmart28,
     universalmotif (>= 1.11.1)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.0
 Depends: 
     R (>= 2.10)
+LazyDataCompression: xz

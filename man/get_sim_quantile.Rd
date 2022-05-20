@@ -4,10 +4,10 @@
 \alias{get_sim_quantile}
 \title{Function to}
 \usage{
-get_sim_quantile(x = 0.99, distance_measure = "PCC", normalized = TRUE)
+get_sim_quantile(x = 0.99, normalized = TRUE)
 }
 \arguments{
-\item{distance_measure}{PCC or KL}
+\item{x}{quantile from 0 to 1}
 
 \item{normalized}{Whether normalized similarity should be used}
 }
